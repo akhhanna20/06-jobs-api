@@ -39,9 +39,9 @@ app.use(helmet());
 app.use(xss());
 app.use(cors());
 
-app.get("/", (req, res) => {
-  res.send("Jobs API");
-});
+// app.get("/", (req, res) => {
+//   res.send("Jobs API");
+// });
 
 // app.get("/", (req, res) => {
 //   res.send("<h1>Jobs API</h1><a href='/api-docs'>Documentation</a>");

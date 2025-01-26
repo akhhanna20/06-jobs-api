@@ -37,7 +37,7 @@ export const handleJobs = () => {
       } else if (e.target.classList.contains("deleteButton")) {
         message.textContent = "";
         const jobId = e.target.dataset.id;
-        // showAddEdit(jobId);
+        handleDelete(jobId);
       }
     }
   });
